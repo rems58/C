@@ -1,0 +1,8 @@
+﻿  plus_.cpp
+C:\Users\rmagne\source\repos\plus_\plus_\plus_.cpp(8,13): warning C4473: 'scanf_s' : nombre insuffisant d'arguments passés pour la chaîne de format
+C:\Users\rmagne\source\repos\plus_\plus_\plus_.cpp(8,13): message : les espaces réservés et leurs paramètres attendent des arguments 2 variadiques, mais des arguments 1 ont été fournis
+C:\Users\rmagne\source\repos\plus_\plus_\plus_.cpp(8,13): message : l'argument variadique manquant 2 est demandé par la chaîne de format '%c'
+C:\Users\rmagne\source\repos\plus_\plus_\plus_.cpp(8,13): message : cet argument est utilisé comme taille de mémoire tampon
+C:\Users\rmagne\source\repos\plus_\plus_\plus_.cpp(27,10): warning C4101: 'relance' : variable locale non référencée
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1134,5): error MSB6006: Arrêt de "link.exe" avec le code 1168.
+LINK : fatal error LNK1168: impossible d'ouvrir C:\Users\rmagne\source\repos\plus_\x64\Debug\plus_.exe pour écrire
