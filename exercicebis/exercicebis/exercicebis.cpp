@@ -3,6 +3,8 @@
 #include <stdbool.h>
 #include <time.h>
 #include <windows.h>
+#include <math.h>
+
 
 
 int main() {
@@ -81,7 +83,7 @@ int main() {
 	}
 	*/
 
-	//Exercice 4(Conditions):
+	/*//Exercice 5(Conditions):
 	int size = 0;
 	printf("rentre la taille du tableau: \n");
 	scanf_s("%d", &size);
@@ -91,7 +93,7 @@ int main() {
 
 
 	for (int i = 0; i < size; i++) {
-                     
+
 		scanf_s("%d", &b);
 		tab[i] = b;
 
@@ -104,8 +106,93 @@ int main() {
 		printf("[%d] => %d\n  ", i, tab[i]);
 
 
-		
+
 	}
 
 	return 0;
+	*/
+
+	/*//Exercice 8 (Boucles):
+	int n = 1;
+	int a = 1;
+	int temp;
+	int result;
+	for (int i = 2; i < 11; i++) {
+
+		temp = n * 9;
+		result = temp + i;
+		printf("%d.9 + %d = %d\n",n, i, result);
+
+		n = n * 10 + i;
+
+
+
+	}
+	*/
+
+	/*//Exercice 1(tableaux): 
+	int tab[100];
+	int nbgen;
+	int nb1=0, nb2 = 0, nb3 = 0, nb4 = 0, nb5 = 0, nb6 = 0, nb7 = 0, nb8 = 0, nb9 = 0;
+
+	for (int i = 0; i < 100; i++) {
+		nbgen = rand() % 9 + 1;
+		tab[i] = nbgen;
+		if(tab[i]==1){
+			nb1 = nb1 + 1;
+		}
+		else if (tab[i] == 2) {
+			nb2 = nb2 + 1;
+		}
+		else if (tab[i] == 3) {
+			nb3 = nb3 + 1;
+		}
+		else if (tab[i] == 4) {
+			nb4 = nb4 + 1;
+		}
+		else if (tab[i] == 5) {
+			nb5 = nb5 + 1;
+		}
+		else if (tab[i] == 6) {
+			nb6 = nb6 + 1;
+		}
+		else if (tab[i] == 7) {
+			nb7 = nb7 + 1;
+		}
+		else if (tab[i] == 8) {
+			nb8 = nb8 + 1;
+		}
+		else if (tab[i] == 9) {
+			nb9 = nb9 + 1;
+		}
+		
+		//printf("%d, ", tab[i]);
+
+	}
+
+	printf("1 est repete %d fois.\n", nb1);
+	printf("2 est repete %d fois.\n", nb2);
+	printf("3 est repete %d fois.\n", nb3);
+	printf("4 est repete %d fois.\n", nb4);
+	printf("5 est repete %d fois.\n", nb5);
+	printf("6 est repete %d fois.\n", nb6);
+	printf("7 est repete %d fois.\n", nb7);
+	printf("8 est repete %d fois.\n", nb8);
+	printf("9 est repete %d fois.\n", nb9);
+
+	*/
+		
+	//Exercice 2(Tableaux)
+	int tab[10];
+	int nbgen;
+
+	for (int i = 0; i < 10; i++) {
+		nbgen = rand() % 9 + 1;
+		tab[i] = nbgen;
+		for (int j = 0; j < i; ) {
+
+		}
+
+
+
 }
