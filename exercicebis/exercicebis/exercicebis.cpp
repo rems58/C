@@ -5,7 +5,7 @@
 #include <windows.h>
 #include <math.h>
 
-
+typedef struct Point
 
 int main() {
 
@@ -130,7 +130,7 @@ int main() {
 	}
 	*/
 
-	/*//Exercice 1(tableaux): 
+	/*//Exercice 1(tableaux):
 	int tab[100];
 	int nbgen;
 	int nb1=0, nb2 = 0, nb3 = 0, nb4 = 0, nb5 = 0, nb6 = 0, nb7 = 0, nb8 = 0, nb9 = 0;
@@ -165,7 +165,7 @@ int main() {
 		else if (tab[i] == 9) {
 			nb9 = nb9 + 1;
 		}
-		
+
 		//printf("%d, ", tab[i]);
 
 	}
@@ -181,17 +181,31 @@ int main() {
 	printf("9 est repete %d fois.\n", nb9);
 
 	*/
+
+	/*//Exercice (Tableaux)
+	int tab[] = {1,5,5,2,8,1,4,7};
+	int a = 0;
+
+
+		for (int j = 0; j < 7; j++) {
+			if (tab[j] > tab[j + 1]) {
+				a = tab[j];
+				tab[j] = tab[j + 1];
+				tab[j + 1] = a;
+
+			}
+			else if (tab[j] == tab[j + 1]) {
+				tab[j] = tab[j + 1];
+			}
+
 		
-	//Exercice 2(Tableaux)
-	int tab[10];
-	int nbgen;
+		printf("%d, ", tab[j]);
 
-	for (int i = 0; i < 10; i++) {
-		nbgen = rand() % 9 + 1;
-		tab[i] = nbgen;
-		for (int j = 0; j < i; ) {
+	}
+	*/
 
-		}
+	//Exercice Structures
+	
 
 
 
