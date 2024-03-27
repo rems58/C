@@ -1,2 +1,3 @@
 ﻿  exercicebis.cpp
+C:\Users\rmagne\Documents\GitHub\C\exercicebis\exercicebis\exercicebis.cpp(11,2): warning C4091: 'typedef ' : ignoré à gauche de 'Point' quand aucune variable n'est déclarée
   exercicebis.vcxproj -> C:\Users\rmagne\Documents\GitHub\C\exercicebis\x64\Debug\exercicebis.exe

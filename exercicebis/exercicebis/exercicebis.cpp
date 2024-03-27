@@ -5,8 +5,16 @@
 #include <windows.h>
 #include <math.h>
 
-typedef struct Point
-
+/*typedef struct Point {
+	int x;
+	int y;
+};
+*/
+typedef struct etudiant {
+	const char* nom;
+	const char* prenom;
+	float note;
+};
 int main() {
 
 	/*//Exercice 15:
@@ -204,8 +212,37 @@ int main() {
 	}
 	*/
 
-	//Exercice Structures
-	
+	/*//Exercice Structures 1
+	int a;
+	int b;
+	Point p;
+	Point p2;
+
+	p.x = 1;
+	p.y = 2;
+
+	p2.x = 5;
+	p2.y = 10;
+
+	printf("%d;%d\n", p.x, p.y);
+	printf("%d;%d\n", p2.x, p2.y);
+
+	a = p2.x - p.x;
+	b = p2.y - p.y;
+
+	printf("%d, %d ", a, b);
+	return 0;
+	*/
+
+	//Exercice 2 struct:
+
+	etudiant a;
+
+	etudiant.nom = "dupont";
+	etudiant.prenom = "jean";
+	etudiant.note = 15;
+
+
 
 
 
